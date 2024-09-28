@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script
@@ -10,20 +11,26 @@
     ></script>
     <style>
       model-viewer {
-        width: 600px;
-        height: 600px;
+        width: 400px;
+        height: 500px;
         margin: 0 auto;
+      }
+      div{
+        display: flex;
       }
     </style>
   </head>
   <body>
-    <h1>testign </h1>
-    <model-viewer
-      src="/3d_modesl/xyzschool_hw11draft1.glb"
-      camera-controls
-      auto-rotate
-      ar
-      ios-src="/3d_modesl/XYZSchool_HW11DRAFT1.usdz"
-    ></model-viewer>
+    <h1>testign</h1>
+    <div>
+      <model-viewer
+        src="/3d_modesl/xyzschool_hw11draft1.glb"
+        camera-controls
+        auto-rotate
+        ar
+        ios-src="/3d_modesl/XYZSchool_HW11DRAFT1.usdz"
+      ></model-viewer>
+     
+    </div>
   </body>
 </html>
